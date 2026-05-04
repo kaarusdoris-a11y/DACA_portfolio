@@ -27,7 +27,7 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfoolio.
 - **Visualiseerimine:** Power BI / Streamlit (tulemas...)
 - **Tööriistad:** Git, GitHub, VS Code
  
-## Kontaktc
+## Kontakt
  
 - **GitHub:** [github.com/kaarusdoris-a11y](https://github.com/kaarusdoris-a11y)
 - **Email:** kaarusdoris@gmail.com
