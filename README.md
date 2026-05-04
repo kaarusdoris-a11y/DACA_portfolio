@@ -19,6 +19,7 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfoolio.
  
 ### Week 2: SQL Andmete Puhastamine
 - (tulemas...)
+- Veendu, et linnad, numbrid, nimed jms on kirjutatud kõik täpselt ühtmoodi.
  
 ## Oskused
  
