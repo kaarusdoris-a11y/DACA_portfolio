@@ -208,7 +208,6 @@ ORDER BY kesk_hind DESC;
 **Järgmiseks nädalaks (Nädal 2 — SQL Cleaning):**
 - Kuupäevade normaliseerimise lõpetamine (`~3%` on `NULL`)
 - Duplikaatide eemaldamise strateegia
-- `category`/`subcategory` andmete puhastamine
 
 ---
 
