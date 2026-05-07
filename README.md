@@ -15,7 +15,11 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfoolio.
 - Supabase seadistamine ✅
  
 ### Week 1: SQL Põhitõed
-- (tulemas...)
+- Anatoomia : SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY, LIMIT. 
+- KIRJAMÄRKIDE TÄHENDUS (=, !, <, >, <=, >=)
+- Operaatorid : AND, OR, NOT, IN, BETWEEN, LIKE, IS NULL
+- Funktsioonid : COUNT(), MIN(), MAX(), AVG(), SUM()
+- Muud : DISTINCT, AS, DESC, ASC
  
 ### Week 2: SQL Andmete Puhastamine
 - (tulemas...)
