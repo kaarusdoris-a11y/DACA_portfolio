@@ -190,7 +190,7 @@ ORDER BY kesk_hind DESC;
 
 **Andmekvaliteet:** `cost_price` ja `retail_price` veergudes puuduvaid väärtusi ei leitud (0 NULL). Küll aga avastati `eco_certified` veerus 18 puuduvat väärtust.
 
-**Märkus:** `category` ja `subcategory` veerud on osaliselt segamini — vajab puhastamist (Nädal 2).
+**Märkus:** `category` ja `subcategory` veerud on juhendis segamini. 
 
 ---
 
