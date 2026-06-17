@@ -99,7 +99,7 @@ Eemaldan: taustarvõrk, 3D efektid, liiga palju värve (max 5–7), korduvad and
 
 ---
 
-## Grupi Töö
+## Grupitöö — Kolme Stakeholder'i Dashboard
 
 Meeskond jagas ülesanded kolme stakeholder'i vahel. Lõpuks koondas meeskond need kolmeks eraldi vaateks, mis kõik kasutasid sama andmeallikat.
 
