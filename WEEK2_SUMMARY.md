@@ -9,8 +9,6 @@
 
 ## Eesmärgid ja Tulemused
 
-Nädala eesmärk oli õppida andmeid puhastama: tuvastada ja eemaldada duplikaate, käsitleda NULL väärtusi ning ühtlustada andmevälju.
-
 Kõik kolm põhieesmärki täideti:
 - Tuvastasin ja eemaldasin duplikaate `GROUP BY + HAVING` ja `ROW_NUMBER()` abil
 - Leidsin ja käsitlesin NULL väärtusi `IS NULL`, `COALESCE()` ja `NULLIF()` abil
@@ -122,7 +120,7 @@ WHERE sale_date > CURRENT_DATE;
 
 ---
 
-## Grupi Töö — Toomase 847 Duplikaati
+## Grupitöö — Toomase 847 Duplikaati
 
 Tiimis uurisime, kuidas 847 duplikaat-sale_id jagunevad domeenide vahel:
 
