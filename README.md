@@ -42,6 +42,7 @@ UrbanStyle.ltd — fiktiivsed müügiandmed
 
 - GitHub: [github.com/kaarusdoris-a11y](https://github.com/kaarusdoris-a11y)
 - Email: kaarusdoris@gmail.com
+- Linkedin : www.linkedin.com/in/kaarusdoris
 
 
 ---
@@ -90,3 +91,4 @@ UrbanStyle.ltd — fictional sales data
 ### Contact
 - GitHub: github.com/kaarusdoris-a11y
 - Email: kaarusdoris@gmail.com
+- Linkedin : www.linkedin.com/in/kaarusdoris
