@@ -154,3 +154,57 @@ ORDER BY c.city, käive DESC;
 ---
 
 *DACA26 · Nädal 3 · UrbanStyle.ltd andmeanalüüs*
+---
+
+## 🇬🇧 In English
+
+### DACA26 — Week 3: SQL JOINs
+**Individual Summary**
+
+Programme: DACA — Data Analyst Career Accelerator
+Week: 3 — SQL JOINs (INNER JOIN, LEFT JOIN, multiple tables)
+Context: Combining UrbanStyle.ltd data to answer Marketing Manager Anna Mets's business questions
+
+#### Goals and Results
+
+All three core goals were achieved:
+- Joined two tables with INNER JOIN using ON clauses and table aliases
+- Identified "missing" data with LEFT JOIN + WHERE IS NULL pattern
+- Built 3+ table queries answering Anna's business questions
+
+#### Context
+
+After Week 2 cleaning, Toomas said: "The sales table is now trustworthy."
+
+But Anna Mets (Marketing Manager): "I can't use this! I only see numbers. Who are our best customers? What do they buy?"
+
+Toomas explains: "JOIN is like VLOOKUP in Excel, but much more powerful."
+
+#### Key Findings
+
+**LEFT JOIN — Missing data discovered:**
+- 592 customers have never purchased
+- 23 products have never been sold
+
+**Answers to Anna's questions:**
+
+| Anna's question | Result |
+|-----------------|--------|
+| Who are the best customers? | Top customer: 12,000+ € in purchases |
+| Which products sell best? | Footwear → highest revenue |
+| Who has never purchased? | 592 customers |
+| Which products haven't sold? | 23 products |
+| Which channels work? | Online > Store |
+
+#### Learning Reflection
+
+**What went well:**
+- LEFT JOIN + IS NULL pattern is elegant — finds "gaps" in data
+- Three-table JOIN query came together logically once aliases were clear
+
+**What needed more work:**
+- RIGHT JOIN vs LEFT JOIN — which perspective to use?
+
+**Next week (Week 4 — SQL Aggregation):**
+- CEO Kristi needs summary numbers for the board meeting
+- GROUP BY, HAVING, CTEs and window functions
