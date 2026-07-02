@@ -152,3 +152,83 @@ fig.show()
 ---
 
 *DACA26 · Nädal 6 · UrbanStyle.ltd andmeanalüüs*
+---
+
+## 🇬🇧 In English
+
+### Week 6 — Data Storytelling
+**Individual Summary**
+
+Programme: DACA — Data Analyst Career Accelerator
+Topic: Data visualisation — annotations, data stories, audience design
+Workbooks: W6 IL (Independent Learning) + W6 GT (Group Work)
+
+#### Week Goals
+- Add annotations to charts that explain the meaning of data
+- Write data stories that turn numbers into a compelling narrative
+- Adapt the same dataset's presentation for different audiences (CEO, IT, Marketing)
+
+#### Annotations
+
+Anna Mets: "I thought a good chart speaks for itself. But Kristi asked: 'Why is there a spike in December?' Without an annotation I had to explain it verbally. That means the chart alone DID NOT speak."
+
+Knaflic (Storytelling with Data Ch 5): *"Every element on a page either adds to or takes away from the story you're trying to tell."*
+
+**Annotation types:**
+
+| Type | What it does | When to use | UrbanStyle example |
+|------|-------------|-------------|-------------------|
+| Title | States WHAT the chart shows | Always | "UrbanStyle monthly revenue 2024" |
+| Subtitle | Adds context or key insight | When title isn't enough | "Growth +15% — driven by Christmas campaign" |
+| Axis labels | Explains what axes show | Always | "Revenue (EUR)", "Months" |
+| Data labels | Concrete value directly on chart | At key points | "€35,200" at peak |
+| Reference line | Shows target or average | For context | "Annual avg revenue = €25,400" |
+| Text box | Explains an anomaly | When a number needs explanation | "↑ Christmas campaign +€8K" |
+
+#### Data Stories — The "So What?" Method
+
+Good data storytelling moves from fact to meaning:
+
+**Data point → "So what?" → "So what?" → Recommendation/Action**
+
+**UrbanStyle examples:**
+
+- December revenue was €35,200
+  - → This is the highest month of the year
+  - → Christmas campaign boosted revenue 43% vs November
+  - → **Action:** Plan a similar campaign to ease January's decline
+
+- Denim Jacket sold 850 units — stock: 12 units
+  - → Critically low stock on top seller
+  - → At current sales pace, stock lasts 4–5 days
+  - → **Action:** Urgent order from supplier needed, or revenue will be lost
+
+- Tartu avg order €28, Tallinn avg €42
+  - → 50% difference between stores
+  - → Tallinn customers have higher purchasing power, or product mix differs
+  - → **Action:** Trial premium products / upselling strategy in Tartu
+
+#### Audience Design
+
+Same dataset, different focus per audience:
+
+| Audience | Focus | Language | Detail level |
+|----------|-------|----------|-------------|
+| CEO (Kristi) | Summary metrics, growth, risk | Business, high-level | KPIs + 1 main trend |
+| Marketing (Anna) | Customer segments, campaigns | Customer-centric | Segment comparison |
+| IT/Dev | Data quality, technical detail | Technical precision | Full dataset |
+| Investors | Growth potential, ROI | Financial language | Forecasts + trends |
+
+**Executive Summary for Kristi's investor meeting:**
+*"UrbanStyle's 2024 total revenue is €305,000, up +15% vs 2023. Growth is driven by the Christmas campaign (+43% in December) and e-store expansion (28% of revenue). Main risk: Denim Jacket stock is critically low — urgent order needed to preserve Q1 sales potential."*
+
+#### Group Work — Store-Specific Dashboards
+
+Challenge (Anna Mets): "Each store manager wants THEIR OWN dashboard. But management needs a consolidated view. How do we do this? And it has to TELL A STORY!"
+
+| Role | Store story | Key question |
+|------|-------------|-------------|
+| A | Tallinn store | City store growth vs e-store competition |
+| B | Tartu store | University store seasonality |
+| C | Pärnu store | Summer resort seasonality — risk and opportunity |
+| D | E-store | Digital growth, no geography |
