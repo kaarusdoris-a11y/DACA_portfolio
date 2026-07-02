@@ -169,3 +169,67 @@ SELECT COUNT(*) FROM sales WHERE sale_date > CURRENT_DATE; -- Oodatav: 0
 ---
 
 *DACA26 · Nädal 2 · UrbanStyle.ltd andmeanalüüs*
+---
+
+## 🇬🇧 In English
+
+### DACA26 — Week 2: SQL Cleaning
+**Individual Summary**
+
+Programme: DACA — Data Analyst Career Accelerator
+Week: 2 — SQL Cleaning (duplicates, NULLs, data formats)
+Context: Cleaning UrbanStyle.ltd data for IT Director Toomas Kask
+
+#### Goals and Results
+
+All three core goals were achieved:
+- Identified and removed duplicates using GROUP BY + HAVING and ROW_NUMBER()
+- Found and handled NULL values using IS NULL, COALESCE() and NULLIF()
+- Cleaned and standardised data fields with CAST, TRIM(), UPPER()/LOWER() and date functions
+
+#### Context
+
+CEO Kristi Tamm called Toomas: "I have a board meeting in two weeks. I need clean numbers."
+Store Manager Liis Koppel confirmed the issues: duplicate order numbers, customers without names, mixed date formats (03/12/2024 — March or December?).
+
+Toomas's rule: **Identify → Document → Test → only then Fix.**
+
+#### Results
+
+**Duplicates removed:**
+
+| Metric | Before | After |
+|--------|--------|-------|
+| Total rows | 15,234 | 10,118 |
+| Unique sale_id | 10,118 | 10,118 |
+| Duplicates removed | — | 5,116 |
+
+**NULL values found:**
+
+| Field | NULLs |
+|-------|-------|
+| customer_id | 1,487 |
+| total_price | 0 |
+| sale_date | ~456 |
+
+**City name standardisation:**
+- 50+ variants (e.g. "tallinn", "TALLINN", " Tallinn ") → 12 clean city names using INITCAP(TRIM())
+
+**Verification queries after cleaning:**
+- sales rows: ~10,118 ✓
+- Unique cities in customers: 12 ✓
+- Future dates: 0 ✓
+
+#### Learning Reflection
+
+**What went well:**
+- ROW_NUMBER() OVER PARTITION BY logic became clear — elegant way to flag duplicates
+- INITCAP(TRIM()) combination is simple but powerful for text cleaning
+
+**What needed more work:**
+- NULLIF() usage — when to use COALESCE vs NULLIF
+- Regex patterns for detecting date formats
+
+**Next week (Week 3 — SQL JOINs):**
+- Cleaned data is ready for JOINs
+- Anna Mets needs combined data from sales, customers, products tables
