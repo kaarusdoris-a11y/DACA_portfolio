@@ -3,7 +3,7 @@
 **Hindaja:** Doris Kaarus
 **Roll:** B — Tehniline intervjueerija (Technical Interviewer)
 **Kuupäev:** juuli 2026
-**Kontekst:** UrbanStyle.ltd värbab 7 andmeanalüütikut. Hindan kandidaatide GitHubi portfooliot tehnilise intervjueerija vaatepunktist.
+**Kontekst:** UrbanStyle.ltd värbab andmeanalüütikut. Hindan kandidaatide GitHubi portfooliot tehnilise intervjueerija vaatepunktist.
 
 ---
 
@@ -50,7 +50,7 @@ Portfoolio näitab reaalset tehnilist tööd SQL-ist Python pipelineni. 121 comm
 
 ---
 
-## Kandidaat 2 — Zokoljov
+## Kandidaat 2 — Ahto Sooaru
 
 **Portfoolio:** https://github.com/Zokoljov/DACA-kursus-2026
 
@@ -93,7 +93,7 @@ Struktuur on olemas ja Vercel näitab initsiatiivi, kuid Python/SQL töö pole s
 
 ## Kokkuvõte
 
-| Kriteerium | Tekla | Zokoljov |
+| Kriteerium | Tekla | Ahto |
 |-----------|-------|----------|
 | SQL kood nähtav | ✅ | ⚠️ |
 | Python kood nähtav | ✅ | ⚠️ |
@@ -108,4 +108,4 @@ Struktuur on olemas ja Vercel näitab initsiatiivi, kuid Python/SQL töö pole s
 
 ---
 
-*AI kasutamine: kasutasin Claude'i portfoolioandmete analüüsimiseks. Kõik järeldused põhinevad portfoolios nähtaval sisul.*
+*AI kasutamine: kasutasin Claude'i portfoolioandmete analüüsimiseks ja professionaalseks kirjelduseks. Kõik järeldused põhinevad portfoolios nähtaval sisul.*
