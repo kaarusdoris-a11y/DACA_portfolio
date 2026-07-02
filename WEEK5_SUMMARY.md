@@ -158,3 +158,75 @@ st.plotly_chart(fig)
 ---
 
 *DACA26 · Nädal 5 · UrbanStyle.ltd andmeanalüüs*
+---
+
+## 🇬🇧 In English
+
+### Week 5 — Visualisation Design
+**Individual Summary**
+
+Programme: DACA — Data Analyst Career Accelerator
+Topic: Visualisation design
+Workbooks: W5 IL (Independent Learning) + W5 GT (Group Work)
+
+#### Week Goals
+- Choose the right chart type for each business question (line, bar, pie, scatter, KPI card)
+- Design dashboard layouts following visual hierarchy and Z/F-patterns
+- Plan filter and interactivity logic to make a static dashboard dynamic
+
+#### Chart Types — When to Use What
+
+| Chart type | Business question | UrbanStyle example |
+|------------|-------------------|-------------------|
+| Line chart | Trend over time | Monthly revenue Jan–Dec |
+| Vertical bar chart | Comparison between categories | Sales by month |
+| Horizontal bar chart | Ranking / leaderboard | TOP 5 products by revenue |
+| Pie chart | Part-to-whole (max 5 slices) | Sales by city |
+| Scatter plot | Correlation between two variables | Order count vs revenue |
+| KPI card | One key metric as a number | Total revenue: €305,000 |
+
+**UrbanStyle dataset decisions:**
+- Dataset A — monthly revenue: → line chart (trend over time)
+- Dataset B — TOP 5 products: → horizontal bar chart (ranking)
+- Dataset C — sales by city (Tallinn 42%, Online 28%, Tartu 18%, Pärnu 12%): → pie chart (4 slices — appropriate)
+
+**Key insight:** Every business question dictates the chart type. Always ask: "What am I showing — a trend, a comparison, a proportion, or a correlation?"
+
+#### Dashboard Design
+
+**Visual hierarchy & Z/F-pattern:**
+- Top-left corner: KPIs (most important numbers)
+- Centre: Main trend line
+- Bottom: Details and comparison views
+
+**Checklist:**
+- Most important info is in the top-left corner
+- Maximum 5–6 elements in one view
+- Each element answers a specific business question
+- Colours are consistent (1–2 primary colours)
+
+#### Filters and Interactivity
+
+| Filter | Default value | Effect on dashboard |
+|--------|--------------|---------------------|
+| Date range | Last 12 months | All charts update |
+| City/store location | All | Only selected city's data |
+| Product category | All | Filters TOP list and revenue numbers |
+
+**Cross-filtering:** Click "Tallinn" in pie chart → KPIs and trend line show only Tallinn data.
+
+**30-second test:** Imagine an investor sees your dashboard for 30 seconds. What is the main message they remember? A good dashboard answers this without any explanation.
+
+#### Group Work — Dual-Track Dashboard
+
+Challenge: CEO Kristi Tamm is inviting investors in five weeks — need a professional interactive dashboard.
+
+Three stakeholders, three views:
+- **Kristi (CEO):** Overview — revenue, growth, KPIs
+- **Anna Mets (Marketing):** Campaign ROI, customer data
+- **Liis Koppel (Operations):** Stock levels, delivery times
+
+#### Learning Reflection
+
+**Next week (Week 6 — Data Storytelling):**
+- Adding annotations and narratives to make charts tell a story
