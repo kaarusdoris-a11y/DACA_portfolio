@@ -191,3 +191,70 @@ rfm['segment'] = rfm.apply(segment, axis=1)
 ---
 
 *DACA26 · Nädal 7 · UrbanStyle.ltd andmeanalüüs*
+---
+
+## 🇬🇧 In English
+
+### Week 7 — Python Pandas
+**Individual Summary**
+
+Programme: DACA — Data Analyst Career Accelerator
+Topic: Python Pandas — data analysis with programming
+Workbooks: W7 IL (Independent Learning) + W7 GT (Group Work)
+
+#### Week Goals
+- Load and explore data as a pandas DataFrame (read_csv(), head(), describe(), info())
+- Filter, group and transform data (boolean indexing, groupby, merge) — and understand how these map to SQL statements
+- Create interactive Plotly charts from pandas data
+
+#### SQL → Python Bridge
+
+| SQL | Python (pandas) |
+|-----|-----------------|
+| SELECT * FROM table | df |
+| SELECT * FROM table LIMIT 5 | df.head() |
+| SELECT COUNT(*) FROM table | df.shape[0] |
+| DESCRIBE table | df.dtypes or df.info() |
+| SELECT AVG(price), MAX(price) FROM table | df.describe() |
+| WHERE city = 'Tallinn' | df[df['store_location'] == 'Tallinn'] |
+| GROUP BY city + SUM(price) | df.groupby('store_location')['total_price'].sum() |
+| JOIN customers ON customer_id | pd.merge(df_sales, df_customers, on='customer_id', how='left') |
+
+#### RFM Analysis in Python
+
+Challenge from Marko Saar (Product Manager): *"We have a new customer dataset. I want to know: who are our VIP customers? How much do they spend? And why do some stop buying? I want to send different emails to VIPs and at-risk customers."*
+
+**RFM = Recency, Frequency, Monetary**
+
+**Customer segments:**
+
+| Segment | Description | Action |
+|---------|-------------|--------|
+| Champion | Buys often, recently, a lot | VIP campaign, previews |
+| Loyal customer | Regular buyer | Loyalty programme |
+| New customer | Bought recently but rarely | Onboarding, recommendations |
+| At risk | Used to buy often, now doesn't | Win-back campaign |
+| Lost customer | Hasn't bought in a long time | Re-activation |
+
+#### Group Work (W7 GT) — Complete RFM Jupyter Notebook
+
+Output: One Jupyter Notebook where each role completes one stage — notebook runs from start to finish without errors.
+
+| Role | Task | Output |
+|------|------|--------|
+| A | Data loading + merge | df (sales + customers joined) |
+| B | Data cleaning | Duplicates, NULLs, date parsing |
+| C | RFM calculation + segments | rfm DataFrame with scores and segments |
+| D | Visualisation + summary | 2+ Plotly charts, written recommendation to Marko |
+
+#### Learning Reflection
+
+**Key insight:** After 6 weeks of SQL, Python/pandas uses the same concepts — just different syntax. The SQL→Python bridge table made the transition much easier.
+
+**What needed more work:**
+- pd.qcut() edge cases when data isn't evenly distributed
+- Combining groupby with multiple aggregation functions
+
+**Next steps:**
+- Automate RFM pipeline with GitHub Actions
+- Connect to Supabase API for live data
