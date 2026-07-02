@@ -156,3 +156,52 @@ ORDER BY kuu;
 ---
 
 *DACA26 · Nädal 4 · UrbanStyle.ltd andmeanalüüs*
+---
+
+## 🇬🇧 In English
+
+### DACA26 — Week 4: SQL Aggregation
+**Individual Summary**
+
+Programme: DACA — Data Analyst Career Accelerator
+Week: 4 — SQL Aggregation (GROUP BY, HAVING, CTE, window functions)
+Context: UrbanStyle.ltd summary numbers for CEO Kristi Tamm's board meeting
+
+#### Goals and Results
+
+All three core goals were achieved:
+- Grouped data by business logic with GROUP BY statements
+- Filtered grouped results with HAVING and understood the difference from WHERE
+- Structured complex queries using CTEs and window functions
+
+#### Key Concept
+
+- **WHERE** filters before grouping (individual rows)
+- **HAVING** filters after grouping (grouped results)
+
+#### Board Meeting Numbers
+
+| Kristi's question | Answer |
+|-------------------|--------|
+| Best category? | Footwear |
+| Best sales channel? | Online |
+| Month-over-month trend? | December highest |
+| Loyal customers? | ~1,200 customers |
+
+**CTE result — category revenue shares:**
+Categories with their % of total revenue, ranked by turnover.
+
+**Window function — cumulative revenue 2024:**
+Monthly revenue shown alongside running total across the year.
+
+#### Learning Reflection
+
+**What went well:**
+- The WHERE vs HAVING difference finally clicked through practical examples
+- CTE structure is much more readable than nested subqueries
+
+**What needed more work:**
+- Window functions — PARTITION BY logic needed repeated practice
+
+**Next week (Week 5 — Visualisation):**
+- Visualising SQL results with Plotly / Streamlit / Power BI
