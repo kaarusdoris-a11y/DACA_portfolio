@@ -212,3 +212,72 @@ ORDER BY kesk_hind DESC;
 ---
 
 *DACA26 · Nädal 1 · UrbanStyle.ltd andmeanalüüs*
+---
+
+## 🇬🇧 In English
+
+### DACA26 — Week 1: SQL Basics
+**Individual Summary**
+
+Programme: DACA — Data Analyst Career Accelerator
+Week: 1 — SQL Basics (SELECT, WHERE, DISTINCT, COUNT)
+Context: UrbanStyle.ltd sales data analysis for IT Director Toomas Kask
+
+#### Goals and Results
+
+All three core goals were achieved:
+- Wrote SELECT queries to retrieve specific columns
+- Filtered data with WHERE using comparison and logical operators
+- Identified duplicates and counted unique values with DISTINCT and COUNT
+
+#### Key Findings
+
+**Part 1 — SELECT and FROM**
+- Largest sale in the table: **€2,170.40**
+- Smallest value discovered: **−€1,405.32** → data quality issue
+
+**Part 2 — WHERE**
+
+| Query | Result |
+|-------|--------|
+| Orders over €500 | 2,499 |
+| Q1 2024 sales | 1,604 |
+| Missing customer_id | 1,487 |
+| Large orders 2024 (>€200) | 4,233 |
+| Large online orders 2024 (>€200) | 1,581 |
+
+**Part 3 — DISTINCT and COUNT (Sales table audit)**
+
+| Metric | Value |
+|--------|-------|
+| Total rows | 15,234 |
+| Rows with customer_id | 13,747 |
+| Missing customer_id | 1,487 |
+| Unique customers | 2,558 |
+| Unique sale_id | 10,118 |
+| Duplicates | 5,116 |
+
+**Team role — Product Data Explorer**
+
+| Category | Products | Min | Max | Avg |
+|----------|----------|-----|-----|-----|
+| Footwear | 73 | €58.49 | €434.08 | €214.10 |
+| Women's clothing | 70 | €32.93 | €351.33 | €192.58 |
+| Men's clothing | 82 | €48.85 | €374.54 | €189.91 |
+| Accessories | 67 | €13.53 | €231.13 | €125.71 |
+| Children's clothing | 70 | €22.70 | €168.82 | €85.30 |
+
+#### Learning Reflection
+
+**What went well:**
+- SQL logic maps intuitively to Excel logic
+- The difference between IS NULL and = NULL became clear immediately
+- Discovering the negative sale (−€1,405.32) showed why data quality checks matter
+
+**What needed more work:**
+- Combining multiple aggregate functions in one query
+- Using UNION ALL without GROUP BY for channel comparison
+
+**Next week (Week 2 — SQL Cleaning):**
+- Complete date normalisation (~3% are NULL)
+- Duplicate removal strategy
