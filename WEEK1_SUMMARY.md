@@ -133,6 +133,20 @@ FROM customers;
 
 ---
 
+## Äriline Mõju — Mida UrbanStyle Sellest Auditist Võidab
+
+- **Käibearuandlus on praegu ebausaldusväärne.** Kui 5 116 rida (~34% tabelist) on duplikaadid, siis senised müügi- ja käibenumbrid on tõenäoliselt üle hinnatud, mis mõjutab otseselt eelarve- ja prognoosiotsuseid.
+- **Kliendisegmenteerimine ja CRM-kampaaniad on osaliselt "pimedad".** 1 487 tehingut ilma `customer_id`-ta tähendab, et ligi 10% müügist ei saa siduda konkreetse kliendiga — see nõrgendab lojaalsusprogrammide ja personaliseeritud turunduse täpsust.
+- **Negatiivsed ja nullilähedased summad (305 rida) viitavad protsessiveale**, mitte ainult andmesisestusveale — need tuleks IT/kassasüsteemi tasandil uurida, sest need võivad korduda ka tulevikus, kui algpõhjust ei paranda.
+
+## Minu Soovitused (Iseseisev Analüüs)
+
+1. **Enne mistahes müügianalüüsi:** deduplitseerida `sales` tabel `sale_id` põhjal ja dokumenteerida reegel (nt "hoia viimane sisestatud rida"), et duplikaatide eemaldamine oleks korratav, mitte ühekordne käsitsitöö.
+2. **`customer_id` puudumise algpõhjus tuleks kaardistada müügikanaliti** — kahtlustan, et enamik puuduvatest väärtustest tuleb kassapõhistest (offline) tehingutest, kus klient ei registreerinud end. Kui see peab paika, on lahendus pigem protsessis (nt küsi e-mail kassas) kui andmetes.
+3. **Negatiivsete summade (305 rida) jaoks soovitan eraldi käsitlust tagastustena**, mitte veana — kui äriloogika tunnistab tagastusi, tuleks lisada `transaction_type` veerg, et need edaspidi kohe eristada müügist.
+
+---
+
 ## Grupi Töö — Roll C: Tooteandmete Uurija
 
 Tiimi töös võtsin rolli **C (Product Data Explorer)** — uurisin `products` tabelit Toomase jaoks.
@@ -190,7 +204,9 @@ ORDER BY kesk_hind DESC;
 
 **Andmekvaliteet:** `cost_price` ja `retail_price` veergudes puuduvaid väärtusi ei leitud (0 NULL). Küll aga avastati `eco_certified` veerus 18 puuduvat väärtust.
 
-**Märkus:** `category` ja `subcategory` veerud on juhendis segamini. 
+**Miks see UrbanStyle'ile oluline on:** kuna `eco_certified` on otseselt seotud toodete keskkonnasõbralikkuse märgistusega, mõjutavad need 18 puuduvat väärtust otseselt jätkusuutlikkuse-raporteerimist — soovitan need 18 rida käsitsi üle vaadata enne, kui neid raportites "ei ole sertifitseeritud" kategooriasse arvestatakse.
+
+**Märkus:** `category` ja `subcategory` veerud on juhendis segamini.
 
 ---
 
@@ -212,6 +228,7 @@ ORDER BY kesk_hind DESC;
 ---
 
 *DACA26 · Nädal 1 · UrbanStyle.ltd andmeanalüüs*
+
 ---
 
 ## 🇬🇧 In English
@@ -219,8 +236,8 @@ ORDER BY kesk_hind DESC;
 ### DACA26 — Week 1: SQL Basics
 **Individual Summary**
 
-Programme: DACA — Data Analyst Career Accelerator
-Week: 1 — SQL Basics (SELECT, WHERE, DISTINCT, COUNT)
+Programme: DACA — Data Analyst Career Accelerator  
+Week: 1 — SQL Basics (SELECT, WHERE, DISTINCT, COUNT)  
 Context: UrbanStyle.ltd sales data analysis for IT Director Toomas Kask
 
 #### Goals and Results
@@ -257,6 +274,18 @@ All three core goals were achieved:
 | Unique sale_id | 10,118 |
 | Duplicates | 5,116 |
 
+#### Business Impact — What UrbanStyle Gains From This Audit
+
+- Revenue reporting is currently unreliable: with 5,116 duplicate rows (~34% of the table), past sales figures are likely overstated, directly affecting budgeting and forecasting.
+- Customer segmentation and CRM campaigns are partly "blind": 1,487 transactions have no `customer_id`, so roughly 10% of sales can't be tied to a customer, weakening loyalty and personalisation efforts.
+- The negative/near-zero amounts (305 rows) point to a process issue, not just a data-entry error, and should be investigated at the POS/IT level so it doesn't keep recurring.
+
+#### My Recommendations (Independent Analysis)
+
+1. Deduplicate the `sales` table on `sale_id` with a documented rule (e.g. "keep the most recently entered row") so the fix is repeatable, not manual.
+2. Map the root cause of missing `customer_id` by sales channel — likely concentrated in offline/POS transactions where the customer wasn't registered; if so, the fix belongs in the process (e.g. ask for an email at checkout), not in the data.
+3. Treat the negative amounts (305 rows) as returns rather than errors — add a `transaction_type` column so returns are separated from sales going forward instead of being filtered out each time.
+
 **Team role — Product Data Explorer**
 
 | Category | Products | Min | Max | Avg |
@@ -266,6 +295,8 @@ All three core goals were achieved:
 | Men's clothing | 82 | €48.85 | €374.54 | €189.91 |
 | Accessories | 67 | €13.53 | €231.13 | €125.71 |
 | Children's clothing | 70 | €22.70 | €168.82 | €85.30 |
+
+Data quality: no missing values in `cost_price` or `retail_price` (0 NULL), but 18 missing values were found in `eco_certified` — directly relevant to sustainability reporting, so worth a manual review before those rows are counted as "not certified."
 
 #### Learning Reflection
 
