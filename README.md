@@ -8,6 +8,12 @@
 
 See repositoorium sisaldab minu DACA õppeprojekte ja portfooliot. Andmestik: UrbanStyle.ltd fiktiivsed müügiandmed (sales, customers, products).
 
+## Minust
+
+Enne DACA programmi töötasin mobiilitehnikuna, mis andis kindla tehnilise taipu ja oskuse probleemide juurpõhjuseni jõuda, ning personalijuhina, mis arendas inimestega klappimise ja suhtlemise oskust. See kombinatsioon sobib hästi andmeanalüütiku rolliga — tuleb nii tehniliselt süveneda kui ka tulemused selgelt lahti seletada.
+
+Praegu tunnen kõige rohkem huvi Marketing/Customer Analytics suuna vastu: Python-kood ja visuaalid on täpselt see, mida tahan igapäevaselt teha, ja olen seda juba proovinud — nädal 7 RFM-analüüsis selgitasin välja, kes on VIP kliendid, kes on lahkumas ning kellele mis kampaaniat suunata. Pikemas plaanis näen end mentorina, kes aitab uusi andmeanalüütikuid järele.
+
 ## Nädalate Kokkuvõtted
 
 | Nädal | Teema | Fail |
@@ -39,6 +45,10 @@ UrbanStyle.ltd — fiktiivsed müügiandmed
 | customers | ~3 150 |
 | products | 362 |
 
+## Meeskonnatöö
+
+Paralleelselt individuaalsete ülesannetega olen 5-liikmelise meeskonna (koos Tekla, Ahto, Henri ja Kaariniga) liige projektis [Sales-Analytics](https://github.com/kaarusdoris-a11y/Sales-Analytics) — UrbanStyle.ltd müügiandmete analüüs IT-direktor Toomas Kase jaoks. Kokkuvõte minu panusest ja tiimi töökorraldusest: [TEAMWORK.md](./TEAMWORK.md).
+
 ## Kontakt
 
 - GitHub: [github.com/kaarusdoris-a11y](https://github.com/kaarusdoris-a11y)
@@ -59,6 +69,12 @@ Start: 27 April 2026
 ### Description
 
 This repository contains my DACA learning projects and portfolio. Dataset: UrbanStyle.ltd fictional sales data (sales, customers, products).
+
+### About Me
+
+Before DACA I worked as a mobile phone technician, which built solid technical instincts and a habit of tracing problems to their root cause, and as an HR manager, which developed my people skills and communication. That combination fits data analytics well — it takes both technical depth and the ability to explain results clearly.
+
+Right now I'm most drawn to Marketing/Customer Analytics: writing Python code and building visuals is exactly what I want to do day to day, and I've already put it into practice — in Week 7's RFM analysis I identified VIP customers, customers at risk of churning, and who should receive which campaign. Longer term, I'd like to become a mentor for new data analysts.
 
 ### Weekly Summaries
 
@@ -89,6 +105,10 @@ UrbanStyle.ltd — fictional sales data
 | sales | ~10,118 (after cleaning) |
 | customers | ~3,150 |
 | products | 362 |
+
+### Teamwork
+
+Alongside the individual weekly tasks, I'm a member of a 5-person team (with Tekla, Ahto, Henri and Kaarin) working on [Sales-Analytics](https://github.com/kaarusdoris-a11y/Sales-Analytics) — a UrbanStyle.ltd sales-data analysis for IT Director Toomas Kask. Summary of my contribution and the team's setup: [TEAMWORK.md](./TEAMWORK.md).
 
 ### Contact
 - GitHub: github.com/kaarusdoris-a11y
