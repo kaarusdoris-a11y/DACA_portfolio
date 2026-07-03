@@ -20,6 +20,7 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfooliot. Andmestik: Ur
 | 5 | Visualiseerimise disain — diagrammitüübid, dashboard, Plotly+Streamlit | [WEEK5_SUMMARY.md](WEEK5_SUMMARY.md) |
 | 6 | Visualiseerimise andmed — annotatsioonid, andmelood, publiku disain | [WEEK6_SUMMARY.md](WEEK6_SUMMARY.md) |
 | 7 | Python Pandas — DataFrame, groupby, merge, RFM analüüs | [WEEK7_SUMMARY.md](WEEK7_SUMMARY.md) |
+| 8 | Python APIs - Supabase Python Client, Pipeline | [WEEK8_SUMMARY.md](WEEK8_SUMMARY.md) |
 
 ## Oskused
 
@@ -71,6 +72,7 @@ This repository contains my DACA learning projects and portfolio. Dataset: Urban
 | 5 | Visualisation Design — chart types, dashboard, Plotly+Streamlit | WEEK5_SUMMARY.md |
 | 6 | Data Storytelling — annotations, narratives, audience design | WEEK6_SUMMARY.md |
 | 7 | Python Pandas — DataFrame, groupby, merge, RFM analysis | WEEK7_SUMMARY.md |
+| 8 | Python APIs - Supabase Python Client, Pipeline | WEEK8_SUMMARY.md |
 
 ### Skills
 - **SQL:** PostgreSQL, Supabase — SELECT, JOIN, GROUP BY, HAVING, CTE, window functions
