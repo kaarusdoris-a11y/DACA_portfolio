@@ -32,7 +32,7 @@ Praegu tunnen kõige rohkem huvi Marketing/Customer Analytics suuna vastu: Pytho
 
 - **SQL:** PostgreSQL, Supabase — SELECT, JOIN, GROUP BY, HAVING, CTE, window functions
 - **Python:** pandas, plotly, streamlit, Jupyter Notebook
-- **Visualiseerimine:** Plotly Express, Streamlit
+- **Visualiseerimine:** Plotly Express, Streamlit, CodePen
 - **Tööriistad:** Git, GitHub, VS Code, NotebookLM
 
 ## Andmebaas
@@ -93,7 +93,7 @@ Right now I'm most drawn to Marketing/Customer Analytics: writing Python code an
 ### Skills
 - **SQL:** PostgreSQL, Supabase — SELECT, JOIN, GROUP BY, HAVING, CTE, window functions
 - **Python:** pandas, plotly, streamlit, Jupyter Notebook
-- **Visualisation:** Plotly Express, Streamlit
+- **Visualisation:** Plotly Express, Streamlit, CodePen
 - **Tools:** Git, GitHub, VS Code, NotebookLM
 
 ### Database
