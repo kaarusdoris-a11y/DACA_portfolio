@@ -25,7 +25,7 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfooliot. Andmestik: Ur
 
 - **SQL:** PostgreSQL, Supabase — SELECT, JOIN, GROUP BY, HAVING, CTE, window functions
 - **Python:** pandas, plotly, streamlit, Jupyter Notebook
-- **Visualiseerimine:** Plotly Express, Streamlit, Power BI
+- **Visualiseerimine:** Plotly Express, Streamlit
 - **Tööriistad:** Git, GitHub, VS Code, NotebookLM
 
 ## Andmebaas
@@ -75,7 +75,7 @@ This repository contains my DACA learning projects and portfolio. Dataset: Urban
 ### Skills
 - **SQL:** PostgreSQL, Supabase — SELECT, JOIN, GROUP BY, HAVING, CTE, window functions
 - **Python:** pandas, plotly, streamlit, Jupyter Notebook
-- **Visualisation:** Plotly Express, Streamlit, Power BI
+- **Visualisation:** Plotly Express, Streamlit
 - **Tools:** Git, GitHub, VS Code, NotebookLM
 
 ### Database
