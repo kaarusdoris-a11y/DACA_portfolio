@@ -168,6 +168,8 @@ rfm['segment'] = rfm.apply(segment, axis=1)
 
 ## Grupitöö (N7 GT) — Terviklik RFM Jupyter Notebook
 
+**Äriprobleem (grupitöö):** Markole tuleb üle anda üks töötav notebook, mitte neli eraldi killustatud skripti — kui andmete laadimine, puhastus, RFM-arvutus ja visualiseerimine ei jookse veatult üksteise otsa, ei saa kampaaniaid õigeaegselt käivitada.
+
 **Väljund:** Üks Jupyter Notebook, kus iga roll täidab ühe etapi — notebook jookseb algusest lõpuni ilma veata.
 
 | Roll | Ülesanne | Väljund |
