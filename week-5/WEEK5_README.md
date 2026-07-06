@@ -5,6 +5,8 @@
 **Töövihikud:** N5 IT (Iseseisva õppe töövihik) + N5 GT (Grupitöö juhend)  
 **Versioon:** 2.9
 
+**Äriprobleem:** CEO Kristi Tamm kohtub investoritega viie nädala pärast — vale diagrammitüüp või halvasti disainitud dashboard varjab UrbanStyle'i tegelikku äriolukorda, mistõttu investorid ei saa 30 sekundiga õiget pilti ettevõtte tervisest.
+
 ---
 
 ## Selle nädala eesmärgid
@@ -129,6 +131,8 @@ st.plotly_chart(fig)
 ---
 
 ## Grupitöö (N5 GT) — Dual-Track Dashboard
+
+**Äriprobleem (grupitöö):** Kolm erinevat sisemist kasutajat (CEO, turundus, operatsioonid) vajavad samast andmestikust kolme erinevat vaadet — dashboard peab vastama kõigi kolme otsustajate küsimustele ilma, et keegi peaks andmeid uuesti käsitsi filtreerima.
 
 **Väljakutse:** CEO Kristi Tamm kutsub investorid viie nädala pärast — vaja on professionaalset interaktiivset dashboard'i.
 
