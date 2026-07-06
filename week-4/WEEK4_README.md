@@ -5,6 +5,8 @@
 **Nädal:** 4 — SQL Aggregation (GROUP BY, HAVING, CTE, window functions)  
 **Kontekst:** UrbanStyle.ltd koondnumbrid Kristi Tamme juhatuse koosolekuks
 
+**Äriprobleem:** Kristi Tamm ei saa juhatuse koosolekul esitada 15 000+ üksikut müügirida — ta vajab kokkuvõtvaid, usaldusväärseid koondnumbreid (parim kategooria, kanal, trend, lojaalsed kliendid), mille peale saab ehitada strateegilisi otsuseid.
+
 ---
 
 ## Eesmärgid ja Tulemused
