@@ -5,6 +5,8 @@
 **Nädal:** 2 — SQL Cleaning (duplikaadid, NULL-id, andmevormingud)  
 **Kontekst:** UrbanStyle.ltd andmete puhastamine IT-direktor Toomas Kase jaoks
 
+**Äriprobleem:** CEO Kristi Tamm vajab kahe nädala pärast juhatuse koosolekuks usaldusväärseid numbreid — kui müügiandmetes on tuhandeid duplikaate ja segaseid kuupäevaformaate, ei saa ükski käibearuanne olla õige, mis paneb ohtu juhatuse otsused.
+
 ---
 
 ## Eesmärgid ja Tulemused
@@ -121,6 +123,8 @@ WHERE sale_date > CURRENT_DATE;
 ---
 
 ## Grupitöö — Toomase 847 Duplikaati
+
+**Äriprobleem (grupitöö):** Toomas peab teadma, kas 847 duplikaat-tellimust on ühekordne impordiviga või korduv probleem — kui duplikaadid kogunevad teatud müügikanalis süsteemselt, tuleb parandada protsess, mitte ainult andmed.
 
 Tiimis uurisime, kuidas 847 duplikaat-sale_id jagunevad domeenide vahel:
 
