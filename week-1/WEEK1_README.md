@@ -5,6 +5,8 @@
 **Nädal:** 1 — SQL Basics (SELECT, WHERE, DISTINCT, COUNT)  
 **Kontekst:** UrbanStyle.ltd müügiandmete analüüs IT-direktor Toomas Kase jaoks
 
+**Äriprobleem:** Toomas ei saa käibearuandeid ega kliendianalüüse usaldada enne, kui on teada, kui palju müügiandmetes on duplikaate, puuduvaid kliendi-ID-sid ja vigaseid summasid — need vead mõjutavad otse eelarve-, prognoosi- ja CRM-otsuseid.
+
 ---
 
 ## Eesmärgid ja Tulemused
@@ -148,6 +150,8 @@ FROM customers;
 ---
 
 ## Grupi Töö — Roll C: Tooteandmete Uurija
+
+**Äriprobleem (Roll C):** Enne kui tooteandmeid saab kasutada hinnastamis-, kategooria- või jätkusuutlikkuse-otsusteks, tuleb kontrollida, kas `products` tabel on täielik ja usaldusväärne — puuduvad väärtused (nt `eco_certified`) võivad moonutada raporteid, mida ettevõte kasutab oluliste äriotsuste tegemiseks.
 
 Tiimi töös võtsin rolli **C (Product Data Explorer)** — uurisin `products` tabelit Toomase jaoks.
 
