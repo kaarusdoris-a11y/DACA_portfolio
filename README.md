@@ -56,9 +56,9 @@ Kasutasin AI-d (Claude) läbivalt kogu programmi vältel:
 - **SQL debugimine:** window function'ite (`LAG`, `NTILE`, `ROW_NUMBER`) loogika kontroll nädalal 4 ja CTE struktuuri selgitamine.
 - **RFM segmenteerimise valideerimine:** nädalal 7 kontrollisin AI abiga oma R/F/M skoorimise loogikat ja segmentide piiride mõistlikkust enne äriraporti kirjutamist.
 - **Python koodi ülevaatus:** Streamlit dashboard'i (nädal 5) ja ETL pipeline'i (nädal 8) veakäsitluse ja loogika kontroll.
-- **Portfoolio struktureerimine:** GitHub README-de, TEAMWORK.md ja nädalakokkuvõtete vormistamine ning tegeliku meeskonnarollide rotatsiooni rekonstrueerimine olemasolevate failide põhjal.
 
-**Aus reflektsioon:** AI aitas kõige rohkem tehnilise debugimise ja vormistamise juures — kiirem on lasta AI-l kontrollida süntaksit või SQL-loogikat, kui ise iga viga käsitsi otsida. Lõplikud äriotsused ja soovitused (nt millist segmenti prioriseerida, kellele mis kampaania saata) pidin siiski ise sõnastama — AI ei tunne UrbanStyle'i konteksti ega saa vastutada minu analüüsi tõlgenduse eest.
+
+**Aus reflektsioon:** AI aitas kõige rohkem tehnilise debugimise ja vormistamise juures — kiirem on lasta AI-l kontrollida süntaksit või SQL-loogikat, kui ise iga viga käsitsi otsida. Lõplikud äriotsused ja soovitused (nt millist segmenti prioriseerida, kellele mis kampaania saata) pidin siiski ise sõnastama.
 
 ## Kontakt
 
@@ -128,9 +128,9 @@ I used AI (Claude) throughout the programme:
 - **SQL debugging:** checking window function (`LAG`, `NTILE`, `ROW_NUMBER`) logic in Week 4 and clarifying CTE structure.
 - **RFM segmentation validation:** in Week 7 I used AI to sanity-check my R/F/M scoring logic and segment boundaries before writing the business report.
 - **Python code review:** reviewing error handling and logic in the Streamlit dashboard (Week 5) and the ETL pipeline (Week 8).
-- **Portfolio structuring:** formatting GitHub READMEs, TEAMWORK.md, and weekly summaries, and reconstructing the actual team role rotation from existing files.
 
-**Honest reflection:** AI helped most with technical debugging and formatting — it's faster to have AI check syntax or SQL logic than to hunt down every error myself. But the final business decisions and recommendations (e.g. which segment to prioritize, which campaign to send to whom) I still had to work out myself — AI doesn't know UrbanStyle's context and can't be responsible for how I interpret my analysis.
+
+**Honest reflection:** AI helped most with technical debugging and formatting — it's faster to have AI check syntax or SQL logic than to hunt down every error myself. But the final business decisions and recommendations (e.g. which segment to prioritize, which campaign to send to whom) I still had to work out myself.
 
 ### Contact
 - GitHub: github.com/kaarusdoris-a11y
