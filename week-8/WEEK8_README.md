@@ -5,6 +5,8 @@
 **Töövihikud:** N8 IT (Iseseisva õppe töövihik) + N8 GT (Grupitöö juhend)  
 **Versioon:** 2.9
 
+**Äriprobleem:** Käsitsi CSV-eksport iga nädal ei püsi UrbanStyle'i kasvades — ilma automatiseeritud ja turvalise API-pipelineta kulub liiga palju aega korduvale käsitööle ning risk vananenud või valede andmete peal otsuseid teha kasvab.
+
 ---
 
 ## Selle nädala eesmärgid
@@ -95,6 +97,8 @@ Logimine annab nähtavuse — näed täpselt mis pipeline'is toimus.
 ---
 
 ## Grupitöö (N8 GT) — Modulaarne Pipeline
+
+**Äriprobleem (grupitöö):** Viis eraldi moodulit (andmete toomine, teisendus, visualiseerimine, orkestreerimine, testimine) peavad ühenduma üheks veatuks pipeline'iks — kui üks moodul katkeb, katkeb kogu automatiseeritud aruandlus, millele ettevõte tugineb.
 
 Väljund: töötav end-to-end pipeline, kus 4 moodulit ühendatakse üheks süsteemiks.
 
