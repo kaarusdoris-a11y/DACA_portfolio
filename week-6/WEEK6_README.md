@@ -5,6 +5,8 @@
 **Töövihikud:** N6 IT (Iseseisva õppe töövihik) + N6 GT (Grupitöö juhend)  
 **Versioon:** 2.9
 
+**Äriprobleem:** Kristi pidi küsima suuliselt, miks detsembris müük tõusis — ilma annotatsioonide ja selge andmeloota ei suuda diagrammid ise äriotsuste tegemiseks vajalikku konteksti edastada, mis raiskab juhtkonna aega ja tekitab valearusaamu.
+
 ---
 
 ## Selle nädala eesmärgid
@@ -96,6 +98,8 @@ Kristi investorikoosoleku jaoks — 3 lauset:
 ---
 
 ## Grupitöö (N6 GT) — Kaupluse-spetsiifilised Dashboard'id
+
+**Äriprobleem (grupitöö):** Iga kaupluse juhataja vajab enda dashboard'i, kuid juhatus vajab ühte koondvaadet — lahendus peab jutustama iga kaupluse enda hooajalist lugu (nt Pärnu suvehooaeg, Tartu üliõpilaste tsükkel) ja samal ajal kokku sobima kontsernitasandi ülevaatega.
 
 **Väljakutse (Anna Mets, Marketing Lead):**  
 *"Iga kaupluse juhataja tahab OMAENDA dashboard'i. Aga juhatusel peab olema koondvaade. Kuidas me seda teeme? Ja see peab LUGU JUTUSTAMA!"*
