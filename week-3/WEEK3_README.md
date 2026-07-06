@@ -5,6 +5,8 @@
 **Nädal:** 3 — SQL JOINs (INNER JOIN, LEFT JOIN, mitu tabelit)  
 **Kontekst:** UrbanStyle.ltd andmete ühendamine Anna Metsa turundusküsimustele vastamiseks
 
+**Äriprobleem:** Anna Mets ei saa sihitud turunduskampaaniaid planeerida, kui müügi-, kliendi- ja tooteandmed on lahutatud eraldi tabelitesse — ilma nende ühendamiseta ei tea ta, kes on parimad kliendid, mis tooted müüvad ega kes on kunagi ostmata jäänud.
+
 ---
 
 ## Eesmärgid ja Tulemused
