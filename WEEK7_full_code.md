@@ -84,7 +84,7 @@ print(rfm.sort_values('monetary', ascending=False).head(10))
 ```
 
 ```python
-# Roll C — RFM skoorid ja segmendid
+# Roll D — RFM skoorid ja segmendid
 
 rfm['R_score'] = pd.qcut(rfm['recency_days'], q=3, labels=[3, 2, 1]).astype(int)
 rfm['F_score'] = pd.qcut(rfm['frequency'].rank(method='first'), q=3, labels=[1, 2, 3]).astype(int)
