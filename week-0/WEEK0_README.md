@@ -5,6 +5,8 @@
 **Nädal:** 0 — Onboarding (GitHub, Supabase, NotebookLM)  
 **Kuupäev:** Aprill 2026
 
+**Äriprobleem:** Enne kui saab teha ühtegi müügi- või kliendianalüüsi, vajab UrbanStyle usaldusväärset ja ühtset andmekeskkonda — kui GitHub, Supabase ja dokumentatsioon pole korrektselt seadistatud, on iga hilisem äriotsus ehitatud ebakindlale alusele.
+
 ---
 
 ## Eesmärk
