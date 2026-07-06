@@ -5,6 +5,8 @@
 **Töövihikud:** N7 IT (Iseseisva õppe töövihik) + N7 GT (Grupitöö juhend)  
 **Versioon:** 2.9
 
+**Äriprobleem:** Marko Saar (tootejuht) ei tea, keda turunduses eelistada — ilma RFM-segmenteerimiseta saadetakse kõigile klientidele sama e-kiri, mis raiskab eelarvet VIP-klientidele mõeldud pakkumiste peale ja jätab lahkumisohus kliendid märkamata.
+
 ---
 
 ## Selle nädala eesmärgid
@@ -243,7 +245,7 @@ Output: One Jupyter Notebook where each role completes one stage — notebook ru
 | Role | Task | Output |
 |------|------|--------|
 | A | Data loading + merge | df (sales + customers joined) |
-| B | Data cleaning | Duplicates, NULLs, date parsing |
+| B | Data cleaning | Duplicates, NULLs, date parsing 
 | C | RFM calculation + segments | rfm DataFrame with scores and segments |
 | D | Visualisation + summary | 2+ Plotly charts, written recommendation to Marko |
 
