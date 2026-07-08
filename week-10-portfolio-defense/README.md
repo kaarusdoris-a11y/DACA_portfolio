@@ -10,7 +10,7 @@
 
 See nädal oli grupitöö: meeskond valmistas ette ühise 7-minutilise esitluse UrbanStyle'i juhatusele (Kristi Tamm, CEO). Minu individuaalne panus lõpuesitluse ettevalmistusse:
 
-- Aitasin koostada **andmete ülevaate** osa peamiste numbriliste leidudega kogu programmi jooksul (nt Nädal 1 `products` tabeli audit, Nädal 7 RFM-segmentatsioon).
+- Aitasin koostada **automatiseerimise demo** osa — tutvustasin Nädal 8 andmete pipeline'it (Supabase API koos pagineerimisega, pandas-põhine töötlus, Plotly eksport) kui näidet sellest, kuidas käsitsitööd automatiseerida.
 - Panustasin **AI kasutamise** reflektsiooni osasse — konkreetsed näited sellest, kus AI aitas (SQL debugimine, RFM loogika valideerimine) ja kus pidin ise otsustama (äriline tõlgendus).
 - Tegin läbi ajastatud prooviesinemise koos meeskonnaga (7 min struktuur: sissejuhatus → andmed → visuaalid → soovitused → AI kasutamine).
 
@@ -19,7 +19,7 @@ See nädal oli grupitöö: meeskond valmistas ette ühise 7-minutilise esitluse 
 Selle nädala artefakti raames korrastasin kogu oma isikliku portfoolio:
 - Lisasin "AI Kasutamine" välja põhi-[README.md](../README.md)-sse (eesti ja inglise keeles).
 - Lisasin nädalate 9 ja 10 read nädalakokkuvõtete tabelisse.
-- Kontrollisin, et kõik lingid (WEEK*_SUMMARY.md, TEAMWORK.md, Sales-Analytics) töötavad.
+- Kontrollisin, et kõik lingid (nädalate README.md failid, TEAMWORK.md, Sales-Analytics) töötavad.
 
 ## Meeskonna ühine töö
 
@@ -33,7 +33,7 @@ Lõpuesitluse slaidid, andmed ja meeskonna ühine README asuvad meie grupiprojek
 
 This week was a group assignment: the team prepared a joint 7-minute presentation for the UrbanStyle board meeting (Kristi Tamm, CEO). My individual contribution to the final presentation:
 
-- Helped put together the **data overview** section with key numeric findings from across the programme (e.g. Week 1 `products` table audit, Week 7 RFM segmentation).
+- Helped put together the **automation demo** section — walked through the Week 8 data pipeline (Supabase API calls with pagination, pandas-based transforms, Plotly export) as an example of automating manual work.
 - Contributed to the **AI usage** reflection section — concrete examples of where AI helped (SQL debugging, RFM logic validation) and where I had to make the call myself (business interpretation).
 - Ran a timed rehearsal with the team (7-minute structure: intro → data → visuals → recommendations → AI usage).
 
@@ -42,7 +42,7 @@ This week was a group assignment: the team prepared a joint 7-minute presentatio
 As this week's artifact, I did a full pass over my personal portfolio:
 - Added an "AI Usage" field to the main [README.md](../README.md) (Estonian and English).
 - Added Week 9 and Week 10 rows to the weekly summaries table.
-- Checked that all links (WEEK*_SUMMARY.md, TEAMWORK.md, Sales-Analytics) work.
+- Checked that all links (weekly README.md files, TEAMWORK.md, Sales-Analytics) work.
 
 ### Team's shared work
 

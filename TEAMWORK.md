@@ -25,7 +25,7 @@ Minu tegelik ülesanne muutus igal nädalal vastavalt sellele nädalale planeeri
 | Nädal | Minu tegelik roll/ülesanne | Allikas |
 |---|---|---|
 | 0 | GitHub repo seadistamine | Team Charter |
-| 1 | Tooteandmete uurija — `products` tabeli analüüs (362 rida, `eco_certified` veerus 18 null väärtust) | Data_Landscape_Week1.pdf, WEEK1_SUMMARY.md |
+| 1 | Tooteandmete uurija — `products` tabeli analüüs (362 rida, `eco_certified` veerus 18 null väärtust) | Data_Landscape_Week1.pdf, [README.md](week-1-sql-basics/README.md) |
 | 2 | *(kinnitamisel)* | — |
 | 3 | *(kinnitamisel)* | — |
 | 4 | Kliendigruppide analüüs — VIP (678 klienti), Regular (266) ja Uus-segment (63) | Data_Landscape_Week4.pdf |
@@ -41,7 +41,7 @@ Nädal 1 andmemaastiku ülevaates on minu leid otse minu nimega atribueeritud:
 
 > `products`: Doris Kaarus — 362 rida, 9 veergu, `eco_certified` veerus 18 null väärtust
 
-See leid viis otse üle nädal 2 SQL-puhastuse teemasse ja on ka lahti kirjutatud minu individuaalses [`WEEK1_SUMMARY.md`](./WEEK1_SUMMARY.md)-s koos äriliku mõju ja soovitusega.
+See leid viis otse üle nädal 2 SQL-puhastuse teemasse ja on ka lahti kirjutatud minu individuaalses [`README.md`](./week-1-sql-basics/README.md)-s koos ärliku mõju ja soovitusega.
 
 ## Iganädalane äriline kommunikatsioon
 
@@ -84,7 +84,7 @@ My actual task changed each week depending on that week's assignment — the tab
 | Week | My actual role/task | Source |
 |---|---|---|
 | 0 | GitHub repo setup | Team Charter |
-| 1 | Product Data Explorer — analysed the `products` table (362 rows, 18 nulls in `eco_certified`) | Data_Landscape_Week1.pdf, WEEK1_SUMMARY.md |
+| 1 | Product Data Explorer — analysed the `products` table (362 rows, 18 nulls in `eco_certified`) | Data_Landscape_Week1.pdf, [README.md](week-1-sql-basics/README.md) |
 | 2 | *(to confirm)* | — |
 | 3 | *(to confirm)* | — |
 | 4 | Customer segmentation analysis — VIP (678 customers), Regular (266), New segment (63) | Data_Landscape_Week4.pdf |
@@ -96,7 +96,7 @@ My actual task changed each week depending on that week's assignment — the tab
 
 ### My specific contribution
 
-In the Week 1 data landscape overview, my finding is directly attributed to my name: `products`: Doris Kaarus — 362 rows, 9 columns, 18 null values in the `eco_certified` column. This finding fed directly into the Week 2 SQL cleaning work and is written up in my individual [`WEEK1_SUMMARY.md`](./WEEK1_SUMMARY.md) with business impact and a recommendation.
+In the Week 1 data landscape overview, my finding is directly attributed to my name: `products`: Doris Kaarus — 362 rows, 9 columns, 18 null values in the `eco_certified` column. This finding fed directly into the Week 2 SQL cleaning work and is written up in my individual [`README.md`](./week-1-sql-basics/README.md) with business impact and a recommendation.
 
 ### Weekly business communication
 

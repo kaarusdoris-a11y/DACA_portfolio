@@ -18,15 +18,17 @@ Praegu tunnen kõige rohkem huvi Marketing/Customer Analytics suuna vastu: Pytho
 
 | Nädal | Teema | Fail |
 |---|---|---|
-| 0 | Süsteemide seadistamine (GitHub, Supabase, NotebookLM) | [WEEK0_SUMMARY.md](WEEK0_SUMMARY.md) |
-| 1 | SQL Põhitõed — SELECT, WHERE, DISTINCT, COUNT | [WEEK1_SUMMARY.md](WEEK1_SUMMARY.md) |
-| 2 | SQL Puhastamine — duplikaadid, NULL-id, vormingud | [WEEK2_SUMMARY.md](WEEK2_SUMMARY.md) |
-| 3 | SQL JOINs — INNER JOIN, LEFT JOIN, mitu tabelit | [WEEK3_SUMMARY.md](WEEK3_SUMMARY.md) |
-| 4 | SQL Agregatsioon — GROUP BY, HAVING, CTE, window functions | [WEEK4_SUMMARY.md](WEEK4_SUMMARY.md) |
-| 5 | Visualiseerimise disain — diagrammitüübid, dashboard, Plotly+Streamlit | [WEEK5_SUMMARY.md](WEEK5_SUMMARY.md) |
-| 6 | Visualiseerimise andmed — annotatsioonid, andmelood, publiku disain | [WEEK6_SUMMARY.md](WEEK6_SUMMARY.md) |
-| 7 | Python Pandas — DataFrame, groupby, merge, RFM analüüs | [WEEK7_SUMMARY.md](WEEK7_SUMMARY.md) |
-| 8 | Python APIs - Supabase Python Client, Pipeline | [WEEK8_SUMMARY.md](WEEK8_SUMMARY.md) |
+| 0 | Süsteemide seadistamine (GitHub, Supabase, NotebookLM) | [README.md](week-0-system-setup/README.md) |
+| 1 | SQL Põhitõed — SELECT, WHERE, DISTINCT, COUNT | [README.md](week-1-sql-basics/README.md) |
+| 2 | SQL Puhastamine — duplikaadid, NULL-id, vormingud | [README.md](week-2-sql-cleaning/README.md) |
+| 3 | SQL JOINs — INNER JOIN, LEFT JOIN, mitu tabelit | [README.md](week-3-sql-joins/README.md) |
+| 4 | SQL Agregatsioon — GROUP BY, HAVING, CTE, window functions | [README.md](week-4-sql-aggregation/README.md) |
+| 5 | Visualiseerimise disain — diagrammitüübid, dashboard, Plotly+Streamlit | [README.md](week-5-visualization-design/README.md) |
+| 6 | Visualiseerimise andmed — annotatsioonid, andmelood, publiku disain | [README.md](week-6-data-storytelling/README.md) |
+| 7 | Python Pandas — DataFrame, groupby, merge, RFM analüüs | [README.md](week-7-python-pandas-rfm/README.md) |
+| 8 | Python APIs — Supabase Python Client, Pipeline | [README.md](week-8-python-apis-pipeline/README.md) |
+| 9 | Karjääri Ettevalmistus — värbamisjuhendi koostamine, peer review | [README.md](week-9-career-prep/README.md) |
+| 10 | Portfoolio Kaitsmine — grupitöö, lõpuesitlus | [README.md](week-10-portfolio-defense/README.md) |
 
 ## Oskused
 
@@ -91,15 +93,17 @@ Right now I'm most drawn to Marketing/Customer Analytics: writing Python code an
 
 | Week | Topic | File |
 |------|-------|------|
-| 0 | System Setup (GitHub, Supabase, NotebookLM) | WEEK0_SUMMARY.md |
-| 1 | SQL Basics — SELECT, WHERE, DISTINCT, COUNT | WEEK1_SUMMARY.md |
-| 2 | SQL Cleaning — duplicates, NULLs, formats | WEEK2_SUMMARY.md |
-| 3 | SQL JOINs — INNER JOIN, LEFT JOIN, multiple tables | WEEK3_SUMMARY.md |
-| 4 | SQL Aggregation — GROUP BY, HAVING, CTE, window functions | WEEK4_SUMMARY.md |
-| 5 | Visualisation Design — chart types, dashboard, Plotly+Streamlit | WEEK5_SUMMARY.md |
-| 6 | Data Storytelling — annotations, narratives, audience design | WEEK6_SUMMARY.md |
-| 7 | Python Pandas — DataFrame, groupby, merge, RFM analysis | WEEK7_SUMMARY.md |
-| 8 | Python APIs - Supabase Python Client, Pipeline | WEEK8_SUMMARY.md |
+| 0 | System Setup (GitHub, Supabase, NotebookLM) | [README.md](week-0-system-setup/README.md) |
+| 1 | SQL Basics — SELECT, WHERE, DISTINCT, COUNT | [README.md](week-1-sql-basics/README.md) |
+| 2 | SQL Cleaning — duplicates, NULLs, formats | [README.md](week-2-sql-cleaning/README.md) |
+| 3 | SQL JOINs — INNER JOIN, LEFT JOIN, multiple tables | [README.md](week-3-sql-joins/README.md) |
+| 4 | SQL Aggregation — GROUP BY, HAVING, CTE, window functions | [README.md](week-4-sql-aggregation/README.md) |
+| 5 | Visualisation Design — chart types, dashboard, Plotly+Streamlit | [README.md](week-5-visualization-design/README.md) |
+| 6 | Data Storytelling — annotations, narratives, audience design | [README.md](week-6-data-storytelling/README.md) |
+| 7 | Python Pandas — DataFrame, groupby, merge, RFM analysis | [README.md](week-7-python-pandas-rfm/README.md) |
+| 8 | Python APIs — Supabase Python Client, Pipeline | [README.md](week-8-python-apis-pipeline/README.md) |
+| 9 | Career Prep — hiring guide, peer review | [README.md](week-9-career-prep/README.md) |
+| 10 | Portfolio Defense — group work, final presentation | [README.md](week-10-portfolio-defense/README.md) |
 
 ### Skills
 - **SQL:** PostgreSQL, Supabase — SELECT, JOIN, GROUP BY, HAVING, CTE, window functions

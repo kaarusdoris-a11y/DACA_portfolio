@@ -16,7 +16,7 @@ Hinnatud portfooliod:
 - Tekla Relika Ani — https://github.com/teklarelikaani-dev/daca-portfolio
 - Ahto Sooaru — https://github.com/Zokoljov/DACA-kursus-2026
 
-Täielik peer review: [WEEK9_peer_review_roll_B.md](./WEEK9_peer_review_roll_B.md)
+Täielik peer review: [peer_review_roll_B.md](./peer_review_roll_B.md)
 
 ---
 
